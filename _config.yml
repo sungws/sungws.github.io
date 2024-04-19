@@ -24,30 +24,32 @@ description: >- # this means to ignore newlines until "baseurl:"
   Spring boot-based Java Web development,
   the latest technologies, trends, and events of interest.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.appsworld.kr" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
 github_username:  ""
 
 # Build settings
-theme: jekyll-whiteglass #minima
+theme: minima
+#theme: jekyll-whiteglass
+
 plugins:
-  #- jekyll-feed
-  - jekyll-archives
-  - jekyll-paginate
-  - jekyll-sitemap
-
-permalink: /:year/:month/:day/:title/
-paginate_path: /posts/:num/
-paginate: 5
-
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layout: category_archives
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
+  - jekyll-feed
+#  - jekyll-archives
+#  - jekyll-paginate
+#  - jekyll-sitemap
+#
+#permalink: /:year/:month/:day/:title/
+#paginate_path: /posts/:num/
+#paginate: 5
+#
+#jekyll-archives:
+#  enabled:
+#    - categories
+#    - tags
+#  layout: category_archives
+#  permalinks:
+#    category: /categories/:name/
+#    tag: /tags/:name/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
